@@ -1,0 +1,19 @@
+# モデル（大容量 / 再配布不可）。入手方法は README 参照
+models/
+
+# 動画（本人・第三者が映っている / 他人の動画）
+*.mp4
+*.mov
+
+# Blender（Y-Bot を含む。apply_poses.py で再生成できる）
+*.blend
+*.blend1
+
+# Python
+__pycache__/
+*.pyc
+
+# 解析結果（スクリプトで再生成できる）
+poses_*.json
+alignment.json
+report.txt
